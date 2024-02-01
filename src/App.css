@@ -89,6 +89,8 @@ body::-webkit-scrollbar {
   .dekatify-detail {
     text-align: center;
     font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .font{
     font-family: 'Quicksand', sans-serif;
@@ -97,12 +99,16 @@ body::-webkit-scrollbar {
 
   .dekatify-header-1{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .dekatify-button{
     align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
