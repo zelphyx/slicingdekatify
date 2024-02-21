@@ -7,7 +7,7 @@ function Card({ price, features,type,duration }) {
         <div className="flex items-center justify-center h-full mt-4">
             <div className="relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-gray-900/20 shadow-md w-full max-w-[25rem] p-8">
                 <div className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
-                    <p className="block font-sans text-sm antialiased font-normal leading-normal text-white uppercase">{type}</p>
+                    <p className="blopck font-sans text-sm antialiased font-normal leading-normal text-white uppercase">{type}</p>
                     <h1 className="flex justify-center gap-1 mt-6 font-sans antialiased font-normal tracking-normal text-white text-7xl">
                         <span className="mt-2 text-4xl">Rp. {price}.000,-</span>
                         <span className="self-end text-4xl">/{duration}</span>

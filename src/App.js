@@ -11,7 +11,9 @@ function App() {
         "Fitur Download Lagu",
         "High Audio Quality",
         "Unlocked Karaoke Feature",
-        "Mainkan Alat Musik Virtual"];
+        "Mainkan Alat Musik Virtual"
+
+    ];
     return (
         <div>
             <div className="dekatify-container">
