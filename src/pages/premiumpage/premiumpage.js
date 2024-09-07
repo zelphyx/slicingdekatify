@@ -1,12 +1,12 @@
 
-import './App.css';
-import './output.css'
-import Card from './cardharga';
+import './stylepremium.css';
+import '../../output.css'
+import Card from './component/cardharga';
 import React from "react";
-import IconTickCircle from "./tickicons";
-import IconMinus from "./icons";
+import IconTickCircle from "./component/tickicons";
+import IconMinus from "./component/icons";
 
-function App() {
+function Premiumpage() {
     const card1 = ["Mendengarkan Tanpa Iklan",
         "Fitur Download Lagu",
         "High Audio Quality",
@@ -51,7 +51,7 @@ function App() {
                             Free Members
                         </th>
                         <th scope="col" className="px-6 py-3 bg-gray-50 dark:bg-gray-800 flex items-center text-sm">
-                            <img src="/img/Group 15.svg" alt="Group 15" className="w-12 h-8 mr-2" />
+                            <img src="/img/Group%2015.svg" alt="Group 15" className="w-12 h-8 mr-2" />
                             Dekkers
                         </th>
 
@@ -151,4 +151,4 @@ function App() {
         </div>);
 }
 
-export default App;
+export default Premiumpage;
